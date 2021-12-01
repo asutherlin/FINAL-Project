@@ -28,16 +28,17 @@ The following machines were identified on the network:
   - **Purpose**: Target
   - **IP Address**: 192.168.1.110
 
+------------------------------
 
 ### Description of Targets
-The target of this attack was: `Target 1` 192.168.1.110.
+The target of this attack was: `Target 1` 192.168.1.110
 
 Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers. As such, the following alerts have been implemented:
 
 ### Monitoring the Targets
 
-Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
-
+#### Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
+------------------------------
 <a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/main/screen_shots/HTTP%20Request%20Size%20Monitor1.png" align="right" height="250" width="450" ></a>
 #### HTTP Request Size Monitor
 
@@ -47,6 +48,7 @@ The “HTTP Request Size Monitor” is implemented as follows:
   - **Vulnerability Mitigated**: HTTP Request Smuggling
   - **Reliability**: Low. Not a perfect solution because you can continue to have false positives until a more accurate baseline is applied against the threshold. 
 
+------------------------------
 <a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/main/screen_shots/Excessive%20HTTP%20ERRORS1.png" align="right" height="250" width="450" ></a>
 #### Excessive HTTP Errors
 
@@ -56,6 +58,7 @@ The “Excessive HTTP Errors” is implemented as follows:
   - **Vulnerability Mitigated**: Brute Force Attack
   - **Reliability**: Medium. Threshold is dependent on the normal number of users logged in and using the application. Specificity of the status code,, such as in the 400s, would make this more reliable. 
 
+------------------------------
 <a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/main/screen_shots/Edit%20CPU%20Usage%20Monitor1.png" align="right" height="250" width="450" ></a>
 #### CPU Usage Monitor
 The “CPU Usage Monitor” is implemented as follows:
