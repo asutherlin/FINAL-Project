@@ -7,22 +7,28 @@
 
 ### Exposed Services
 Nmap scan results for each machine reveal the below services and OS details:
-
 ```
 $ nmap 192.168.1.0-255 -sV
-
 ```
-
 This scan identifies the services below as potential points of entry:
-- Target 1 192.168.1.110
+
+- `Target 1 192.168.1.110`
+
+<a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/main/screen_shots/NMAP1.png" align="left" height="500" width="580" ></a>
+
   - 22/tcp  ssh          OpenSSH 6.7p1 Debian 5+deb8u4 (protocol 2.0)
   - 80/tcp  http         Apache http 2.4.10 ((Debian))
   - 111/tcp rpcbind      2-4 (RPC #100000)
   - 139/tcp netbios-ssn  Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
   - 445/tcp netbios-ssn  Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+```
+$ nmap -sV --script=vulnerse 192.168.1.110
+```
+<a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/main/screen_shots/NMAP%20Vuln1.png" align="center" height="240" width="340" ></a>
 
-The following vulnerabilities were identified on each target:
-- Target 1
+---
+
+The following vulnerabilities were identified on `target 1`:
   - Easy password guess for user, michael, to ssh into.
   - SQL Database visible through michael’s shell.
   - Sudo Python capabilities for user steven
