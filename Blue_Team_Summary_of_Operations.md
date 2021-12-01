@@ -26,7 +26,7 @@ The following machines were identified on the network:
   - **Purpose**: Target
   - **IP Address**: 192.168.1.110
 
-![Final Project's Topology]("FINAL-Project/screen_shots/Final Project Topology.png")
+![Final Project's Topology](https://github.com/asutherlin/FINAL-Project/blob/ef958b8b86a8ad9ac0ac6019314448d6ebcb575f/screen_shots/Final%20Project%20Topology.png)
 
 
 ### Description of Targets
