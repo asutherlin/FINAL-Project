@@ -8,6 +8,8 @@
 - Suggestions for Going Further
 
 ### Network Topology
+<a href="url"><img src="https://github.com/asutherlin/FINAL-Project/blob/ef958b8b86a8ad9ac0ac6019314448d6ebcb575f/screen_shots/Final%20Project%20Topology.png" align="right" height="500" width="500" ></a>
+
 The following machines were identified on the network:
 - ELK 
   - **Operating System**: Linux
@@ -25,8 +27,6 @@ The following machines were identified on the network:
   - **Operating System**: Linux
   - **Purpose**: Target
   - **IP Address**: 192.168.1.110
-
-![Final Project's Topology](https://github.com/asutherlin/FINAL-Project/blob/ef958b8b86a8ad9ac0ac6019314448d6ebcb575f/screen_shots/Final%20Project%20Topology.png)
 
 
 ### Description of Targets
