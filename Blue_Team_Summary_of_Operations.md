@@ -26,6 +26,8 @@ The following machines were identified on the network:
   - **Purpose**: Target
   - **IP Address**: 192.168.1.110
 
+![Final Project's Topology]("FINAL-Project/screen_shots/Final Project Topology.png")
+
 
 ### Description of Targets
 The target of this attack was: `Target 1` 192.168.1.110.
